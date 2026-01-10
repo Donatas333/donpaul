@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title data-i18n="portfolioPages.zoomMeetingGenerator.headTitle">Portfolio - Zoom Meeting Generator</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@700&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-details-page portfolio-zoom-meeting-generator">
+
+    <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+        <i class="header-toggle d-xl-none bi bi-list"></i>
+
+        <div class="header-container d-flex flex-column align-items-start">
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html#hero" class="active"><i class="bi bi-house navicon"></i><span
+                                data-i18n="nav.home">Home</span></a></li>
+                    <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> <span
+                                data-i18n="nav.services">Services</span></a></li>
+                    <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> <span
+                                data-i18n="nav.portfolio">Portfolio</span></a></li>
+                    <li><a href="index.html#about"><i class="bi bi-person navicon"></i> <span
+                                data-i18n="nav.about">About</span></a></li>
+                    <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> <span
+                                data-i18n="nav.resume">Resume</span></a></li>
+                    <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> <span
+                                data-i18n="nav.contact">Contact</span></a></li>
+                </ul>
+            </nav>
+
+            <div class="social-links text-center">
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="github"><i class="bi bi-github"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+            <div class="language-switcher text-center mt-3">
+                <button class="lang-btn" data-lang="lt" aria-label="Switch to Lithuanian">LT</button>
+                <span class="separator">|</span>
+                <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+                <span class="separator">|</span>
+                <button class="lang-btn" data-lang="nl" aria-label="Switch to Dutch">NL</button>
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background">
+            <div class="container d-lg-flex justify-content-between align-items-center">
+                <h1 class="mb-2 mb-lg-0" data-i18n="portfolioPages.common.pageTitle">About Portfolio</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                        <li class="current" data-i18n="portfolioPages.common.breadcrumbCurrent">Portfolio Overview</li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- Case Study Section -->
+        <section id="portfolio-details" class="case-study section">
+
+            <div class="background-elements">
+                <div class="bg-circle circle-1"></div>
+                <div class="bg-circle circle-2"></div>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <!-- Hero: Eyebrow / Strong Title / One-line value + Slider -->
+                <div class="case-study-hero-wrap mb-5" data-aos="fade-up" data-aos-delay="100">
+                    <div class="case-study-hero-block" data-aos="fade-up" data-aos-delay="120">
+                        <p class="eyebrow" data-i18n="portfolioPages.zoomMeetingGenerator.eyebrow">Automation & Insights
+                        </p>
+                        <h1 class="case-study-hero-title" data-i18n="portfolioPages.zoomMeetingGenerator.heroTitle">Zoom
+                            Meeting Intelligence for Distributed Teams</h1>
+                        <p class="case-study-hero-sub" data-i18n="portfolioPages.zoomMeetingGenerator.heroSub">Capture
+                            recordings, transcribe to Lithuanian, and surface AI-driven meeting insights and
+                            recommendations</p>
+                    </div>
+
+                    <div class="case-study-hero" data-aos="fade-up" data-aos-delay="140">
+                        <div class="portfolio-details-slider swiper init-swiper">
+                            <script type="application/json" class="swiper-config">
+                  {
+                    "loop": false,
+                    "rewind": true,
+                    "speed": 600,
+                    "autoplay": {"delay": 5000},
+                    "slidesPerView": 1,
+                    "spaceBetween": 20,
+                    "allowTouchMove": true,
+                    "shortSwipes": true,
+                    "longSwipes": true,
+                    "longSwipesMs": 200,
+                    "touchReleaseOnEdges": false,
+                    "followFinger": true,
+                    "navigation": {"nextEl": ".portfolio-hero-next", "prevEl": ".portfolio-hero-prev"},
+                    "pagination": {"el": ".portfolio-swiper-pagination", "type": "bullets", "clickable": true}
+                  }
+                </script>
+                            <div class="portfolio-swiper-wrapper swiper-wrapper align-items-center">
+                                <div class="portfolio-swiper-slide swiper-slide">
+                                    <img src="assets/img/portfolio/portfolio-zoom-main-1.webp"
+                                        alt="Dashboard with meeting insights" class="img-fluid" loading="lazy">
+                                </div>
+                                <div class="portfolio-swiper-slide swiper-slide">
+                                    <img src="assets/img/portfolio/portfolio-zoom-main-2.webp"
+                                        alt="Transcript editor interface" class="img-fluid" loading="lazy">
+                                </div>
+                                <div class="portfolio-swiper-slide swiper-slide">
+                                    <img src="assets/img/portfolio/portfolio-zoom-main-3.webp"
+                                        alt="Opportunity detection highlights" class="img-fluid" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev portfolio-hero-prev" aria-label="Previous slide"></div>
+                            <div class="swiper-button-next portfolio-hero-next" aria-label="Next slide"></div>
+                            <div class="portfolio-swiper-pagination swiper-pagination" role="tablist"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Context Section -->
+                <div class="row gy-4 mb-5">
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="150">
+                        <div class="case-study-card">
+                            <h4><i class="bi bi-building"></i> <span
+                                    data-i18n="portfolioPages.zoomMeetingGenerator.contextLabelIndustry">Industry</span>
+                            </h4>
+                            <p data-i18n="portfolioPages.zoomMeetingGenerator.contextIndustry">Agency / Sales
+                                Consultancy</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                        <div class="case-study-card">
+                            <h4><i class="bi bi-diagram-3"></i> <span
+                                    data-i18n="portfolioPages.zoomMeetingGenerator.contextLabelScale">Scale</span></h4>
+                            <p data-i18n="portfolioPages.zoomMeetingGenerator.contextScale">Multi-freelancer agency
+                                (distributed sales reps)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="250">
+                        <div class="case-study-card">
+                            <h4><i class="bi bi-person-badge"></i> <span
+                                    data-i18n="portfolioPages.zoomMeetingGenerator.contextLabelRole">My Role</span></h4>
+                            <p data-i18n="portfolioPages.zoomMeetingGenerator.contextRole">System Integrator &
+                                Automation Designer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="case-study-card">
+                            <h4><i class="bi bi-calendar-month"></i> <span
+                                    data-i18n="portfolioPages.zoomMeetingGenerator.contextLabelTimeline">Timeline</span>
+                            </h4>
+                            <p data-i18n="portfolioPages.zoomMeetingGenerator.contextTimeline">Q3 2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Problem Section -->
+                <div class="case-study-section mb-5" data-aos="fade-up" data-aos-delay="200">
+                    <h2 data-i18n="portfolioPages.zoomMeetingGenerator.problemTitle">Problem</h2>
+                    <div class="section-content">
+                        <h4 data-i18n="portfolioPages.zoomMeetingGenerator.problemWhatTitle">What Was Broken</h4>
+                        <p data-i18n="portfolioPages.zoomMeetingGenerator.problemWhat">The agency used multiple
+                            freelancers with separate Zoom accounts. There was no central way to collect recordings,
+                            compare meeting quality, or track missed opportunities and individual performance.</p>
+
+                        <h4 class="mt-3" data-i18n="portfolioPages.zoomMeetingGenerator.problemWhoTitle">Who Was
+                            Affected</h4>
+                        <p data-i18n="portfolioPages.zoomMeetingGenerator.problemWho">Sales consultants, account
+                            managers, and the agency operations team who needed visibility into call outcomes and
+                            coaching opportunities.</p>
+
+                        <h4 class="mt-3" data-i18n="portfolioPages.zoomMeetingGenerator.problemRiskTitle">Business Risk
+                        </h4>
+                        <p data-i18n="portfolioPages.zoomMeetingGenerator.problemRisk">Lack of visibility led to
+                            inconsistent sales quality, missed upsell opportunities, and poor coaching feedback loops,
+                            reducing revenue potential.</p>
+                    </div>
+                </div>
+
+                <!-- Analysis Section -->
+                <div class="case-study-section mb-5" data-aos="fade-up" data-aos-delay="250">
+                    <h2 data-i18n="portfolioPages.zoomMeetingGenerator.analysisTitle">Analysis</h2>
+                    <div class="section-content">
+                        <h4 data-i18n="portfolioPages.zoomMeetingGenerator.analysisApproachTitle">Approach</h4>
+                        <p data-i18n="portfolioPages.zoomMeetingGenerator.analysisApproach">We audited the agency's
+                            current meeting workflows, identified where recordings were stored (if at all), and mapped
+                            touchpoints where automated capture and transcription could enable analytics and coaching
+                            signals.</p>
+
+                        <h4 class="mt-3" data-i18n="portfolioPages.zoomMeetingGenerator.analysisFindingsTitle">Key
+                            Discoveries</h4>
+                        <ul class="case-study-list">
+                            <li data-i18n="portfolioPages.zoomMeetingGenerator.analysisFinding1">Many recordings were
+                                inaccessible for central review</li>
+                            <li data-i18n="portfolioPages.zoomMeetingGenerator.analysisFinding2">Raw transcripts were in
+                                various languages and inconsistent formats</li>
+                            <li data-i18n="portfolioPages.zoomMeetingGenerator.analysisFinding3">Sales opportunities
+                                could be detected by keyword patterns and conversational signals</li>
+                            <li data-i18n="portfolioPages.zoomMeetingGenerator.analysisFinding4">Small process changes
+                                could unlock measurable revenue and efficiency gains</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Solution Section -->
+                <div class="case-study-section mb-5" data-aos="fade-up" data-aos-delay="300">
+                    <h2 data-i18n="portfolioPages.zoomMeetingGenerator.solutionTitle">Solution</h2>
+                    <div class="section-content">
+                        <h4 data-i18n="portfolioPages.zoomMeetingGenerator.solutionDesignedTitle">What Was Designed</h4>
+                        <p data-i18n="portfolioPages.zoomMeetingGenerator.solutionDesigned">Implemented an automated
+                            pipeline: collect Zoom cloud recordings, convert audio to text with Lithuanian
+                            transcription, enrich transcripts with AI to extract insights, scoring and action
+                            recommendations, and centralize results in a dashboard for managers and reps.</p>
+
+                        <h4 class="mt-3" data-i18n="portfolioPages.zoomMeetingGenerator.workflowTitle">Automation
+                            Workflow</h4>
+                        <div class="row gy-3">
+                            <div class="col-md-6">
+                                <div class="workflow-step" data-aos="fade-up">
+                                    <div class="step-number">1</div>
+                                    <div>
+                                        <h5 data-i18n="portfolioPages.zoomMeetingGenerator.workflowStep1Title">Recording
+                                            Collection</h5>
+                                        <p data-i18n="portfolioPages.zoomMeetingGenerator.workflowStep1Text">Recordings
+                                            are captured from Zoom cloud and pushed to a central storage bucket</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="workflow-step" data-aos="fade-up">
+                                    <div class="step-number">2</div>
+                                    <div>
+                                        <h5 data-i18n="portfolioPages.zoomMeetingGenerator.workflowStep2Title">
+                                            Transcription</h5>
+                                        <p data-i18n="portfolioPages.zoomMeetingGenerator.workflowStep2Text">Audio
+                                            transcribed to Lithuanian, normalized and time-stamped</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="workflow-step" data-aos="fade-up">
+                                    <div class="step-number">3</div>
+                                    <div>
+                                        <h5 data-i18n="portfolioPages.zoomMeetingGenerator.workflowStep3Title">AI
+                                            Analysis</h5>
+                                        <p data-i18n="portfolioPages.zoomMeetingGenerator.workflowStep3Text">AI extracts
+                                            action items, missed opportunities, sentiment, and sales signals</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="workflow-step" data-aos="fade-up">
+                                    <div class="step-number">4</div>
+                                    <div>
+                                        <h5 data-i18n="portfolioPages.zoomMeetingGenerator.workflowStep4Title">Insights
+                                            & Feedback</h5>
+                                        <p data-i18n="portfolioPages.zoomMeetingGenerator.workflowStep4Text">
+                                            Recommendations delivered to dashboard and via weekly reports for coaching
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4 class="mt-4" data-i18n="portfolioPages.zoomMeetingGenerator.solutionWhyTitle">Why This
+                            Solution</h4>
+                        <p data-i18n="portfolioPages.zoomMeetingGenerator.solutionWhy">Centralized recording + AI-driven
+                            analysis created a continuous feedback loop, letting managers coach reps, replicate
+                            successful patterns, and reduce time wasted on low-value calls.</p>
+                    </div>
+                </div>
+
+                <!-- Results Section -->
+                <div class="case-study-section mb-5" data-aos="fade-up" data-aos-delay="350">
+                    <h2 class="results-title" data-i18n="portfolioPages.zoomMeetingGenerator.resultsTitle">Results</h2>
+                    <div class="row gy-4">
+                        <div class="col-md-6">
+                            <div class="result-card">
+                                <div class="result-icon"><i class="bi bi-chat-dots"></i></div>
+                                <h4 data-i18n="portfolioPages.zoomMeetingGenerator.resultHeadingFeedback">Better
+                                    Feedback Loop</h4>
+                                <p data-i18n="portfolioPages.zoomMeetingGenerator.resultFeedback">Managers received
+                                    structured summaries and action items for each meeting enabling targeted coaching.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="result-card">
+                                <div class="result-icon"><i class="bi bi-graph-up"></i></div>
+                                <h4 data-i18n="portfolioPages.zoomMeetingGenerator.resultHeadingRevenue">Revenue
+                                    Improvement</h4>
+                                <p data-i18n="portfolioPages.zoomMeetingGenerator.resultRevenue">+15% revenue
+                                    attributable to improved follow-up and opportunity capture</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="result-card">
+                                <div class="result-icon"><i class="bi bi-clock"></i></div>
+                                <h4 data-i18n="portfolioPages.zoomMeetingGenerator.resultHeadingTime">Time Efficiency
+                                </h4>
+                                <p data-i18n="portfolioPages.zoomMeetingGenerator.resultTime">30% reduction in time
+                                    spent on meetings and manual post-call processing</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="result-card">
+                                <div class="result-icon"><i class="bi bi-check2-circle"></i></div>
+                                <h4 data-i18n="portfolioPages.zoomMeetingGenerator.resultHeadingCloseRate">Better
+                                    Conversion</h4>
+                                <p data-i18n="portfolioPages.zoomMeetingGenerator.resultClose">20% increase in closed
+                                    deals from improved call quality and follow-up</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Artifacts Section -->
+                <div class="case-study-section" data-aos="fade-up" data-aos-delay="400">
+                    <h2 class="tools-artifacts-title" data-i18n="portfolioPages.zoomMeetingGenerator.toolsTitle">Tools
+                    </h2>
+                    <div class="row gy-4">
+                        <div class="col-lg-6">
+                            <h4><i class="bi bi-tools"></i> <span
+                                    data-i18n="portfolioPages.zoomMeetingGenerator.toolsUsedHeader">Tools Used</span>
+                            </h4>
+                            <ul class="tools-list">
+                                <li><strong>Zoom</strong> - <span
+                                        data-i18n="portfolioPages.zoomMeetingGenerator.toolZoomDesc">Zoom cloud
+                                        recordings</span></li>
+                                <li><strong>ASR</strong> - <span
+                                        data-i18n="portfolioPages.zoomMeetingGenerator.toolTranscriptionDesc">Lithuanian
+                                        transcription service (ASR)</span></li>
+                                <li><strong>OpenAI</strong> - <span
+                                        data-i18n="portfolioPages.zoomMeetingGenerator.toolAiDesc">OpenAI / LLM for
+                                        insights extraction and recommendations</span></li>
+                                <li><strong>Airtable / DB</strong> - <span
+                                        data-i18n="portfolioPages.zoomMeetingGenerator.toolStorageDesc">Central storage
+                                        and dashboard (Airtable / DB)</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4><i class="bi bi-file-earmark-text"></i> <span
+                                    data-i18n="portfolioPages.zoomMeetingGenerator.deliverablesHeader">Deliverables</span>
+                            </h4>
+                            <ul class="tools-list">
+                                <li data-i18n="portfolioPages.zoomMeetingGenerator.deliverable1">Recording ingestion
+                                    pipeline</li>
+                                <li data-i18n="portfolioPages.zoomMeetingGenerator.deliverable2">Transcription +
+                                    normalization module</li>
+                                <li data-i18n="portfolioPages.zoomMeetingGenerator.deliverable3">Insight extraction and
+                                    scoring model</li>
+                                <li data-i18n="portfolioPages.zoomMeetingGenerator.deliverable4">Manager dashboard +
+                                    weekly report generator</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Related Portfolio Items -->
+            <div class="container mt-5 pt-5">
+                <h2 class="text-center mb-4" data-aos="fade-up"
+                    data-i18n="portfolioPages.zoomMeetingGenerator.exploreOtherProjects">Explore Other Projects</h2>
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="related-portfolio-card">
+                            <div class="card-image">
+                                <img src="assets/img/portfolio/portfolio-auto-emails.webp" alt="Auto Emails"
+                                    class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-category"
+                                    data-i18n="portfolioPages.zoomMeetingGenerator.related1.category">Automation</span>
+                                <h4 data-i18n="portfolioPages.zoomMeetingGenerator.related1.title">Auto Emails</h4>
+                                <p data-i18n="portfolioPages.zoomMeetingGenerator.related1.desc">Automated Email
+                                    Reminder System</p>
+                                <a href="portfolio-auto-emails.html" class="card-link">
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                        <div class="related-portfolio-card">
+                            <div class="card-image">
+                                <img src="assets/img/portfolio/portfolio-video-generator.webp" alt="Video Generator"
+                                    class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-category"
+                                    data-i18n="portfolioPages.zoomMeetingGenerator.related2.category">Social
+                                    Media</span>
+                                <h4 data-i18n="portfolioPages.zoomMeetingGenerator.related2.title">Video Generator</h4>
+                                <p data-i18n="portfolioPages.zoomMeetingGenerator.related2.desc">AI-Powered Content
+                                    Creation</p>
+                                <a href="portfolio-video-generator.html" class="card-link">
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="related-portfolio-card">
+                            <div class="card-image">
+                                <img src="assets/img/portfolio/portfolio-auto-crm.webp" alt="CRM Automation"
+                                    class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-category"
+                                    data-i18n="portfolioPages.zoomMeetingGenerator.related3.category">Business
+                                    Process</span>
+                                <h4 data-i18n="portfolioPages.zoomMeetingGenerator.related3.title">CRM Automation</h4>
+                                <p data-i18n="portfolioPages.zoomMeetingGenerator.related3.desc">Streamlined Business
+                                    Processes</p>
+                                <a href="portfolio-auto-CRM.html" class="card-link">
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section><!-- /Case Study Section -->
+
+    </main>
+
+    <footer id="footer" class="footer position-relative">
+
+        <div class="container">
+            <div class="copyright text-center ">
+                <p>© <span>2025</span> <strong class="px-1 sitename">BeProblem</strong> <span
+                        data-i18n="footer.rights">All Rights Reserved</span></p>
+            </div>
+            <div class="credits">
+                <a href="/" data-i18n="footer.tagline">Creating solutions that make your daily life easier</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- i18n Script -->
+    <script src="assets/js/i18n.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

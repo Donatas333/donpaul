@@ -1,0 +1,167 @@
+# Fillable content for creating a new portfolio page: Zoom Meeting Generator
+# This is a filled example based on your brief. Filename matches your request.
+
+---
+PAGE IDENTIFIERS
+slug: zoom-meeting-generator
+sourceFile: portfolio-zoom-meeting-generator.html
+
+---
+NAV / SITE (shared keys - left for reference)
+nav.home (data-i18n="nav.home"): Pradžia
+nav.services (data-i18n="nav.services"): Paslaugos
+nav.portfolio (data-i18n="nav.portfolio"): Projektai
+nav.about (data-i18n="nav.about"): Apie mane
+nav.resume (data-i18n="nav.resume"): CV
+nav.contact (data-i18n="nav.contact"): Kontaktai
+
+---
+PAGE META / TITLE
+portfolioPages.zoomMeetingGenerator.headTitle (title tag): Portfolio - Zoom Meeting Generator
+portfolioPages.common.pageTitle (page title h1): Apie Portfolio
+portfolioPages.common.breadcrumbCurrent (breadcrumb current): Portfolio Apžvalga
+
+---
+HERO
+portfolioPages.zoomMeetingGenerator.eyebrow (p.eyebrow): Automation & Insights
+portfolioPages.zoomMeetingGenerator.heroTitle (h1.case-study-hero-title): Zoom Meeting Intelligence for Distributed Teams
+portfolioPages.zoomMeetingGenerator.heroSub (p.case-study-hero-sub): Capture recordings, transcribe to Lithuanian, and surface AI-driven meeting insights and recommendations
+
+Hero slider images (alt texts)
+slide1.src: assets/img/portfolio/portfolio-zoom-main-1.webp
+slide1.alt: Dashboard with meeting insights
+slide2.src: assets/img/portfolio/portfolio-zoom-main-2.webp
+slide2.alt: Transcript editor interface
+slide3.src: assets/img/portfolio/portfolio-zoom-main-3.webp
+slide3.alt: Opportunity detection highlights
+
+---
+CONTEXT (cards)
+portfolioPages.zoomMeetingGenerator.contextLabelIndustry (label): Industry
+portfolioPages.zoomMeetingGenerator.contextIndustry (value): Agency / Sales Consultancy
+
+portfolioPages.zoomMeetingGenerator.contextLabelScale (label): Scale
+portfolioPages.zoomMeetingGenerator.contextScale (value): Multi-freelancer agency (distributed sales reps)
+
+portfolioPages.zoomMeetingGenerator.contextLabelRole (label): My Role
+portfolioPages.zoomMeetingGenerator.contextRole (value): System Integrator & Automation Designer
+
+portfolioPages.zoomMeetingGenerator.contextLabelTimeline (label): Timeline
+portfolioPages.zoomMeetingGenerator.contextTimeline (value): Q3 2025
+
+---
+PROBLEM SECTION
+portfolioPages.zoomMeetingGenerator.problemTitle (h2): Problem
+portfolioPages.zoomMeetingGenerator.problemWhatTitle (h4): What Was Broken
+portfolioPages.zoomMeetingGenerator.problemWhat (p): The agency used multiple freelancers with separate Zoom accounts. There was no central way to collect recordings, compare meeting quality, or track missed opportunities and individual performance.
+
+portfolioPages.zoomMeetingGenerator.problemWhoTitle (h4): Who Was Affected
+portfolioPages.zoomMeetingGenerator.problemWho (p): Sales consultants, account managers, and the agency operations team who needed visibility into call outcomes and coaching opportunities.
+
+portfolioPages.zoomMeetingGenerator.problemRiskTitle (h4): Business Risk
+portfolioPages.zoomMeetingGenerator.problemRisk (p): Lack of visibility led to inconsistent sales quality, missed upsell opportunities, and poor coaching feedback loops, reducing revenue potential.
+
+---
+ANALYSIS
+portfolioPages.zoomMeetingGenerator.analysisTitle (h2): Analysis
+portfolioPages.zoomMeetingGenerator.analysisApproachTitle (h4): Approach
+portfolioPages.zoomMeetingGenerator.analysisApproach (p): We audited the agency's current meeting workflows, identified where recordings were stored (if at all), and mapped touchpoints where automated capture and transcription could enable analytics and coaching signals.
+
+portfolioPages.zoomMeetingGenerator.analysisFindingsTitle (h4): Key Discoveries
+portfolioPages.zoomMeetingGenerator.analysisFinding1 (li): Many recordings were inaccessible for central review
+portfolioPages.zoomMeetingGenerator.analysisFinding2 (li): Raw transcripts were in various languages and inconsistent formats
+portfolioPages.zoomMeetingGenerator.analysisFinding3 (li): Sales opportunities could be detected by keyword patterns and conversational signals
+portfolioPages.zoomMeetingGenerator.analysisFinding4 (li): Small process changes could unlock measurable revenue and efficiency gains
+
+---
+SOLUTION
+portfolioPages.zoomMeetingGenerator.solutionTitle (h2): Solution
+portfolioPages.zoomMeetingGenerator.solutionDesignedTitle (h4): What Was Designed
+portfolioPages.zoomMeetingGenerator.solutionDesigned (p): Implemented an automated pipeline: collect Zoom cloud recordings, convert audio to text with Lithuanian transcription, enrich transcripts with AI to extract insights, scoring and action recommendations, and centralize results in a dashboard for managers and reps.
+
+portfolioPages.zoomMeetingGenerator.workflowTitle (h4): Automation Workflow
+portfolioPages.zoomMeetingGenerator.workflowStep1Title: Recording Collection
+portfolioPages.zoomMeetingGenerator.workflowStep1Text: Recordings are captured from Zoom cloud and pushed to a central storage bucket
+portfolioPages.zoomMeetingGenerator.workflowStep2Title: Transcription
+portfolioPages.zoomMeetingGenerator.workflowStep2Text: Audio transcribed to Lithuanian, normalized and time-stamped
+portfolioPages.zoomMeetingGenerator.workflowStep3Title: AI Analysis
+portfolioPages.zoomMeetingGenerator.workflowStep3Text: AI extracts action items, missed opportunities, sentiment, and sales signals
+portfolioPages.zoomMeetingGenerator.workflowStep4Title: Insights & Feedback
+portfolioPages.zoomMeetingGenerator.workflowStep4Text: Recommendations delivered to dashboard and via weekly reports for coaching
+
+portfolioPages.zoomMeetingGenerator.solutionWhyTitle (h4): Why This Solution
+portfolioPages.zoomMeetingGenerator.solutionWhy (p): Centralized recording + AI-driven analysis created a continuous feedback loop, letting managers coach reps, replicate successful patterns, and reduce time wasted on low-value calls.
+
+---
+RESULTS
+portfolioPages.zoomMeetingGenerator.resultsTitle (h2): Results
+
+portfolioPages.zoomMeetingGenerator.resultHeadingFeedback (h4): Better Feedback Loop
+portfolioPages.zoomMeetingGenerator.resultFeedback (p): Managers received structured summaries and action items for each meeting enabling targeted coaching.
+
+portfolioPages.zoomMeetingGenerator.resultHeadingRevenue (h4): Revenue Improvement
+portfolioPages.zoomMeetingGenerator.resultRevenue (p): +15% revenue attributable to improved follow-up and opportunity capture
+
+portfolioPages.zoomMeetingGenerator.resultHeadingTime (h4): Time Efficiency
+portfolioPages.zoomMeetingGenerator.resultTime (p): 30% reduction in time spent on meetings and manual post-call processing
+
+portfolioPages.zoomMeetingGenerator.resultHeadingCloseRate (h4): Better Conversion
+portfolioPages.zoomMeetingGenerator.resultClose (p): 20% increase in closed deals from improved call quality and follow-up
+
+---
+TOOLS & ARTIFACTS
+portfolioPages.zoomMeetingGenerator.toolsTitle (h2): Tools
+portfolioPages.zoomMeetingGenerator.toolsUsedHeader (h4): Tools Used
+portfolioPages.zoomMeetingGenerator.toolZoomDesc: Zoom cloud recordings
+portfolioPages.zoomMeetingGenerator.toolTranscriptionDesc: Lithuanian transcription service (ASR)
+portfolioPages.zoomMeetingGenerator.toolAiDesc: OpenAI / LLM for insights extraction and recommendations
+portfolioPages.zoomMeetingGenerator.toolStorageDesc: Central storage and dashboard (Airtable / DB)
+
+portfolioPages.zoomMeetingGenerator.deliverablesHeader (h4): Deliverables
+portfolioPages.zoomMeetingGenerator.deliverable1: Recording ingestion pipeline
+portfolioPages.zoomMeetingGenerator.deliverable2: Transcription + normalization module
+portfolioPages.zoomMeetingGenerator.deliverable3: Insight extraction and scoring model
+portfolioPages.zoomMeetingGenerator.deliverable4: Manager dashboard + weekly report generator
+
+---
+RELATED / CARDS (suggested related items)
+portfolioPages.zoomMeetingGenerator.exploreOtherProjects (h2): Explore Other Projects
+
+portfolioPages.zoomMeetingGenerator.related1.category: Automation
+portfolioPages.zoomMeetingGenerator.related1.title: Auto Emails
+portfolioPages.zoomMeetingGenerator.related1.desc: Automated Email Reminder System
+
+portfolioPages.zoomMeetingGenerator.related2.category: Social Media
+portfolioPages.zoomMeetingGenerator.related2.title: Video Generator
+portfolioPages.zoomMeetingGenerator.related2.desc: AI-Powered Content Creation
+
+portfolioPages.zoomMeetingGenerator.related3.category: Business Process
+portfolioPages.zoomMeetingGenerator.related3.title: CRM Automation
+portfolioPages.zoomMeetingGenerator.related3.desc: Streamlined Business Processes
+
+---
+FOOTER
+footer.rights (p): Visos teisės saugomos
+footer.tagline (a): Kuriame sprendimus, kurie palengvina jūsų kasdienybę
+
+---
+IMAGES / ALTS (placeholders)
+main1: assets/img/portfolio/portfolio-zoom-main-1.webp
+main1.alt: Dashboard with meeting insights
+main2: assets/img/portfolio/portfolio-zoom-main-2.webp
+main2.alt: Transcript editor interface
+main3: assets/img/portfolio/portfolio-zoom-main-3.webp
+main3.alt: Opportunity detection highlights
+
+related1.img: assets/img/portfolio/portfolio-auto-emails.webp
+related1.alt: Auto Emails
+related2.img: assets/img/portfolio/portfolio-video-generator.webp
+related2.alt: Video Generator
+related3.img: assets/img/portfolio/portfolio-auto-crm.webp
+related3.alt: CRM Automation
+
+---
+INSTRUCTIONS
+- Review the entries above — they are filled from your brief. Edit any wording you prefer.
+- When ready, I can craft `portfolio-zoom-meeting-generator.html` using these values and add i18n keys into the English JSON file.
+- If you want, change `slug` to a different filename-safe string.

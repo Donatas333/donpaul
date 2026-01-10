@@ -29,16 +29,25 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: SnapFolio
-  * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
-  * Updated: Jul 21 2025 with Bootstrap v5.3.7
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    /* Constrain only the slider so following content is wider */
+    .hero-slider-wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 992px) {
+      .hero-slider-wrapper {
+        max-width: 100%;
+        padding: 0 18px;
+      }
+    }
+  </style>
+
+
 </head>
 
-<body class="portfolio-details-page">
+<body class="portfolio-details-page portfolio-auto-emails portfolio-auto-captions">
 
   <header id="header" class="header dark-background d-flex flex-column justify-content-center">
     <i class="header-toggle d-xl-none bi bi-list"></i>
@@ -101,53 +110,58 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <!-- Project Title -->
-        <h1 class="case-study-title mb-4" data-aos="fade-up" data-aos-delay="100">
-          <span data-i18n="portfolioPages.autoCaptions.category">Auto Caption</span>
-        </h1>
+        <!-- Hero: Eyebrow / Strong Title / One-line value + Slider -->
+        <div class="case-study-hero-wrap mb-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="case-study-hero-block" data-aos="fade-up" data-aos-delay="120">
+            <p class="eyebrow" data-i18n="portfolioPages.autoCaptions.eyebrow">Automation Case Study</p>
+            <h1 class="case-study-hero-title" data-i18n="portfolioPages.autoCaptions.heroTitle">Automated Caption
+              Generation Pipeline</h1>
+            <p class="case-study-hero-sub" data-i18n="portfolioPages.autoCaptions.heroSub">From raw media to structured
+              captions using Make, AI, and Airtable</p>
+          </div>
 
-        <!-- Hero Image -->
-        <div class="case-study-hero mb-5" data-aos="fade-up" data-aos-delay="100">
-          <div class="portfolio-details-slider swiper init-swiper">
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": false,
-                "rewind": true,
-                "speed": 600,
-                "autoplay": {"delay": 5000},
-                "slidesPerView": 1,
-                "spaceBetween": 20,
-                "allowTouchMove": true,
-                "shortSwipes": true,
-                "longSwipes": true,
-                "longSwipesMs": 200,
-                "touchReleaseOnEdges": false,
-                "followFinger": true,
-                "navigation": {"nextEl": ".portfolio-hero-next", "prevEl": ".portfolio-hero-prev"},
-                "pagination": {"el": ".portfolio-swiper-pagination", "type": "bullets", "clickable": true}
-              }
-            </script>
-            <div class="portfolio-swiper-wrapper swiper-wrapper align-items-center">
-              <div class="portfolio-swiper-slide swiper-slide">
-                <img src="assets/img/portfolio/portfolio-main-1.webp" alt="Portfolio Image" class="img-fluid"
-                  loading="lazy">
+          <div class="case-study-hero" data-aos="fade-up" data-aos-delay="140">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                  {
+                    "loop": false,
+                    "rewind": true,
+                    "speed": 600,
+                    "autoplay": {"delay": 5000},
+                    "slidesPerView": 1,
+                    "spaceBetween": 20,
+                    "allowTouchMove": true,
+                    "shortSwipes": true,
+                    "longSwipes": true,
+                    "longSwipesMs": 200,
+                    "touchReleaseOnEdges": false,
+                    "followFinger": true,
+                    "navigation": {"nextEl": ".portfolio-hero-next", "prevEl": ".portfolio-hero-prev"},
+                    "pagination": {"el": ".portfolio-swiper-pagination", "type": "bullets", "clickable": true}
+                  }
+                </script>
+              <div class="portfolio-swiper-wrapper swiper-wrapper align-items-center">
+                <div class="portfolio-swiper-slide swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-main-1.webp" alt="Creator editing workflow" class="img-fluid"
+                    loading="lazy">
+                </div>
+                <div class="portfolio-swiper-slide swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-main-2.webp" alt="AI caption example" class="img-fluid"
+                    loading="lazy">
+                </div>
+                <div class="portfolio-swiper-slide swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-main-3.webp" alt="Workflow diagram" class="img-fluid"
+                    loading="lazy">
+                </div>
+                <div class="portfolio-swiper-slide swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-main-4.webp" alt="Published post preview" class="img-fluid"
+                    loading="lazy">
+                </div>
               </div>
-              <div class="portfolio-swiper-slide swiper-slide">
-                <img src="assets/img/portfolio/portfolio-main-2.webp" alt="Portfolio Image" class="img-fluid"
-                  loading="lazy">
-              </div>
-              <div class="portfolio-swiper-slide swiper-slide">
-                <img src="assets/img/portfolio/portfolio-main-3.webp" alt="Portfolio Image" class="img-fluid"
-                  loading="lazy">
-              </div>
-              <div class="portfolio-swiper-slide swiper-slide">
-                <img src="assets/img/portfolio/portfolio-main-4.webp" alt="Portfolio Image" class="img-fluid"
-                  loading="lazy">
-              </div>
+              <div class="swiper-button-prev portfolio-hero-prev" aria-label="Previous slide"></div>
+              <div class="swiper-button-next portfolio-hero-next" aria-label="Next slide"></div>
+              <div class="portfolio-swiper-pagination swiper-pagination" role="tablist"></div>
             </div>
-            <div class="swiper-button-prev portfolio-hero-prev"></div>
-            <div class="swiper-button-next portfolio-hero-next"></div>
-            <div class="portfolio-swiper-pagination swiper-pagination"></div>
           </div>
         </div>
 
@@ -454,6 +468,7 @@
         <a href="https://beproblem.lt/" data-i18n="footer.tagline">Kuriame sprendimus, kurie palengvina jūsų
           kasdienybę</a>
       </div>
+    </div>
     </div>
 
   </footer>

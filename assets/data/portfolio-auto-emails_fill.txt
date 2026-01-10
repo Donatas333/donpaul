@@ -1,0 +1,165 @@
+# Fillable content for creating a new portfolio page based on portfolio-auto-emails.html
+# Copy this file, rename values for a new project, then send it back or save as JSON for the generator.
+
+---
+PAGE IDENTIFIERS
+slug: auto-emails
+sourceFile: portfolio-auto-emails.html
+
+---
+NAV / SITE (these use shared i18n keys; include for reference)
+nav.home (data-i18n="nav.home"): Pradžia
+nav.services (data-i18n="nav.services"): Paslaugos
+nav.portfolio (data-i18n="nav.portfolio"): Projektai
+nav.about (data-i18n="nav.about"): Apie mane
+nav.resume (data-i18n="nav.resume"): CV
+nav.contact (data-i18n="nav.contact"): Kontaktai
+
+---
+PAGE META / TITLE
+portfolioPages.autoEmails.headTitle (title tag): Portfolio - Auto Emails
+portfolioPages.common.pageTitle (page title h1): Apie Portfolio
+portfolioPages.common.breadcrumbCurrent (breadcrumb current): Portfolio Apžvalga
+
+---
+HERO
+portfolioPages.autoEmails.eyebrow (p.eyebrow): Automation Case Study
+portfolioPages.autoEmails.heroTitle (h1.case-study-hero-title): Automated Caption Generation Pipeline
+portfolioPages.autoEmails.heroSub (p.case-study-hero-sub): From raw media to structured captions using Make, AI, and Airtable
+
+Hero slider images (alt texts)
+slide1.src: assets/img/portfolio/portfolio-main-1.webp
+slide1.alt: Creator editing workflow
+slide2.src: assets/img/portfolio/portfolio-main-2.webp
+slide2.alt: AI caption example
+slide3.src: assets/img/portfolio/portfolio-main-3.webp
+slide3.alt: Workflow diagram
+slide4.src: assets/img/portfolio/portfolio-main-4.webp
+slide4.alt: Published post preview
+
+---
+CONTEXT (cards)
+portfolioPages.autoEmails.contextLabelIndustry (label): Industry
+portfolioPages.autoEmails.contextIndustry (value): Social Media Management
+
+portfolioPages.autoEmails.contextLabelScale (label): Scale
+portfolioPages.autoEmails.contextScale (value): Individual Creator / Small Team
+
+portfolioPages.autoEmails.contextLabelRole (label): My Role
+portfolioPages.autoEmails.contextRole (value): Automation Designer & Developer
+
+portfolioPages.autoEmails.contextLabelTimeline (label): Timeline
+portfolioPages.autoEmails.contextTimeline (value): May 2025
+
+---
+PROBLEM SECTION
+portfolioPages.autoEmails.problemTitle (h2): Problem
+portfolioPages.autoEmails.problemWhatTitle (h4): What Was Broken
+portfolioPages.autoCaptions.problemWhat (p): Content creators faced a time-consuming workflow: filming videos, writing captions, researching hashtags, designing thumbnails, and scheduling posts manually across multiple platforms. Each step required creative effort but consumed hours that could be spent on actual content creation.
+
+portfolioPages.autoEmails.problemWhoTitle (h4): Who Was Affected
+portfolioPages.autoCaptions.problemWho (p): Individual creators and small teams managing social media accounts lacked a tool to streamline the post-production workflow, resulting in inconsistent posting schedules and missed engagement opportunities.
+
+portfolioPages.autoEmails.problemRiskTitle (h4): Business Risk
+portfolioPages.autoEmails.problemRisk (p): Without automation, creators either compromised on content frequency (leading to reduced audience engagement) or burned out from repetitive manual tasks (reducing overall content quality).
+
+---
+ANALYSIS
+portfolioPages.autoEmails.analysisTitle (h2): Analysis
+portfolioPages.autoEmails.analysisApproachTitle (h4): Approach
+portfolioPages.autoEmails.analysisApproach (p): Mapped the entire post-production workflow to identify manual touchpoints. Researched available AI services for caption generation, hashtag recommendations, and scheduling tools. Designed an integrated solution using Make.com as the orchestration platform.
+
+portfolioPages.autoEmails.analysisFindingsTitle (h4): Key Discoveries
+portfolioPages.autoEmails.analysisFinding1 (li): AI can generate contextually relevant captions with high accuracy
+portfolioPages.autoEmails.analysisFinding2 (li): Hashtag research can be automated using API-based tools
+portfolioPages.autoEmails.analysisFinding3 (li): Multi-platform scheduling reduces manual post creation by 80%+
+portfolioPages.autoEmails.analysisFinding4 (li): Templates ensure consistent branding across platforms
+
+---
+SOLUTION
+portfolioPages.autoEmails.solutionTitle (h2): Solution
+portfolioPages.autoEmails.solutionDesignedTitle (h4): What Was Designed
+portfolioPages.autoEmails.solutionDesigned (p): Built an automated caption-to-post pipeline that accepts video input, generates AI-powered captions, recommends hashtags based on content analysis, optimizes post timing, and publishes to multiple social platforms in one workflow.
+
+portfolioPages.autoEmails.workflowTitle (h4): Automation Workflow
+portfolioPages.autoEmails.workflowStep1Title: Video Upload & Analysis
+portfolioPages.autoEmails.workflowStep1Text: Creator uploads video; AI analyzes content
+portfolioPages.autoEmails.workflowStep2Title: Caption Generation
+portfolioPages.autoEmails.workflowStep2Text: AI generates engaging, on-brand captions
+portfolioPages.autoEmails.workflowStep3Title: Hashtag Optimization
+portfolioPages.autoEmails.workflowStep3Text: Algorithm suggests relevant hashtags for reach
+portfolioPages.autoEmails.workflowStep4Title: Schedule & Publish
+portfolioPages.autoEmails.workflowStep4Text: Posts scheduled and published automatically
+
+portfolioPages.autoEmails.solutionWhyTitle (h4): Why This Solution
+portfolioPages.autoEmails.solutionWhy (p): Centralized workflow reduces context-switching, AI handles creative repetition freeing human effort for actual content creation, multi-platform support maximizes reach without multiplying manual work.
+
+---
+RESULTS
+portfolioPages.autoEmails.resultsTitle (h2): Results
+
+portfolioPages.autoEmails.resultHeadingTime (h4): Time Saved
+portfolioPages.autoEmails.resultValueTime (p): 6-8 hours/week
+portfolioPages.autoEmails.resultTime (p): Per-video post production reduced from 45 min to 5 min
+
+portfolioPages.autoEmails.resultHeadingConsistency (h4): Consistency Gain
+portfolioPages.autoEmails.resultValueConsistency (p): 100%
+portfolioPages.autoEmails.resultConsistency (p): Automated posting ensures no missed uploads
+
+portfolioPages.autoEmails.resultHeadingQuality (h4): Quality Impact
+portfolioPages.autoEmails.resultValueQuality (p): Improved
+portfolioPages.autoEmails.resultQuality (p): Optimized captions and hashtags increase engagement
+
+portfolioPages.autoEmails.resultHeadingReach (h4): Platform Reach
+portfolioPages.autoEmails.resultValueReach (p): Multi-Platform
+portfolioPages.autoEmails.resultReach (p): One workflow, multiple platforms updated simultaneously
+
+---
+TOOLS & ARTIFACTS
+portfolioPages.autoEmails.toolsTitle (h2): Tools
+portfolioPages.autoEmails.toolsUsedHeader (h4): Tools Used
+portfolioPages.autoEmails.toolMakeDesc: Workflow orchestration & automation
+portfolioPages.autoEmails.toolOpenAiDesc: Caption generation & content analysis
+portfolioPages.autoEmails.toolHashtagDesc: Trending topic matching
+portfolioPages.autoEmails.toolApisDesc: Instagram, TikTok, LinkedIn, YouTube
+
+portfolioPages.autoEmails.deliverablesHeader (h4): Deliverables
+portfolioPages.autoEmails.deliverable1: Make.com Scenario - Complete automation blueprint
+portfolioPages.autoEmails.deliverable2: API Documentation - Integration guidelines
+portfolioPages.autoEmails.deliverable3: User Guide - Step-by-step platform instructions
+portfolioPages.autoEmails.deliverable4: Caption Templates - Brand-customizable templates
+
+---
+RELATED / CARDS
+portfolioPages.autoEmails.exploreOtherProjects (h2): Explore Other Projects
+
+portfolioPages.autoEmails.related1.category: Automation
+portfolioPages.autoEmails.related1.title: Auto Email
+portfolioPages.autoEmails.related1.desc: Automated Email Reminder System
+
+portfolioPages.autoEmails.related2.category: Social Media
+portfolioPages.autoEmails.related2.title: Video Generator
+portfolioPages.autoEmails.related2.desc: AI-Powered Content Creation
+
+portfolioPages.autoEmails.related3.category: Business Process
+portfolioPages.autoEmails.related3.title: CRM Automation
+portfolioPages.autoEmails.related3.desc: Streamlined Business Processes
+
+---
+FOOTER
+footer.rights (p): Visos teisės saugomos
+footer.tagline (a): Kuriame sprendimus, kurie palengvina jūsų kasdienybę
+
+---
+IMAGES / ALTS (cards and related)
+related1.img: assets/img/portfolio/portfolio-auto-emails.webp
+related1.alt: Auto Emails
+related2.img: assets/img/portfolio/portfolio-video-generator.webp
+related2.alt: Video Generator
+related3.img: assets/img/portfolio/portfolio-auto-crm.webp
+related3.alt: CRM Automation
+
+---
+INSTRUCTIONS
+- Edit the values on the right side of the colons to provide English text for a new project.
+- Save the file and reply here or run the generator if available. I can take this file and create a new `portfolio-<slug>.html` and inject translations.
